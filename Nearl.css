@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 0, 0);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav img {
+    width: 80px;
+    object-fit: contain;
+}
+
+nav ul {
+    width: 700px;
+    /*background-color: aqua;*/
+    list-style-type: none;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    font-size: 1.5rem;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 10px;
+    color: rgb(200, 255, 0);
+
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav ul li:hover{
+    color: rgb(234, 0, 255);
+    background-color: rgb(3, 245, 164);
+}
+
+nav a {
+    font-size: 1.2rem;
+    color: rgb(0, 27, 148);
+}
+
+#home {
+    width: 100%;
+    height: 500px;
+    /*background-color: blueviolet;*/
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#home .dude {
+    width: 400px;
+    height: 500px;
+    /*background-color: aqua;*/
+}
+
+#home .dimg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#home .hello {
+    width: 600px;
+    height: 300px;
+    background-color: rgb(255, 39, 10);
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hello h1 {
+    font-size: 4rem;
+    font-weight: 200;
+   /* text-align: center;*/
+   color: aliceblue;
+}
+
+.hello p {
+
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.hello a {
+    width: 300px;
+    font-size: 2rem;
+    color: rgb(172, 63, 0);
+    text-decoration: none;
+     background-color: rgb(51, 255, 0);
+    text-transform: capitalize;
+
+   border-radius: 30px;
+   padding: 10px;
+   margin: 10px;
+   text-align: center;
+}
+
+.hello a:hover{
+    background-color:  rgb(3, 245, 164);
+    color:rgb(234, 0, 255);
+    transition: all 0.4s;
+}
+
+#skills {
+    width: 100%;
+    height: 600px;
+    /*background-color: aquamarine;*/
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#skills .shit {
+    width: 450px;
+    height: 600px;
+    /*background-color: red;*/
+}
+
+#skills .Exp {
+    letter-spacing: 1px;
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 40px;
+}
+
+#skills .info {
+    width: 100%;
+    height: 100px;
+    /*background-color: rgb(80, 17, 255);*/
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 1.2rem;
+    flex-direction: column;
+    margin: 20px;
+}
+
+#skills .sphoto {
+    width: 650px;
+    height: 500px;
+    /*background-color: brown;*/
+
+    margin: 20px;
+}
+
+#skills .sphoto img {
+   width: 100%;
+   height: 100%;
+}
+
+#skills .info i {
+    /*background-color: rgb(255, 115, 0);*/
+    padding: 12px 15px ;
+     border-radius: 50%;
+}
+
+.fa-html5 {
+    background-color: rgb(255, 115, 0);
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+}
+
+.fa-css3-alt {
+    background-color: rgb(44, 100, 255);
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+}
+
+.fa-js {
+    background-color: rgb(255, 221, 31);
+    color: white;
+    font-size: 1.5rem;
+}
+
+#recent {
+    width: 100%;
+    height: 680px;
+   /* background-color: aqua;*/
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+#recent .rec {
+    width: 100%;
+    height: 100px;
+   /* background-color: blue;*/
+
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color:  rgb(136, 255, 0);
+}
+
+#recent .tcg .Chen{
+    width: 100%;
+    height: 580px;
+    /*background-color: brown;*/
+
+    object-fit: contain;
+}
+
+#recent .tcg2 a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: rgb(51, 255, 0);
+    border-radius: 40px;
+
+    padding: 10px;
+    color: rgb(255, 5, 5);
+    cursor: pointer;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+#recent .tcg2 a:hover{
+    background-color: rgb(3, 245, 164);
+    color: rgb(234, 0, 255);
+    transition: all 0.4s;
+}
+
+#client {
+    width: 100%;
+    height: 700px;
+    background-color: aqua;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#client .review {
+    width: 400px;
+    height: 520px;
+    background-color: blueviolet;
+}
+
+#client .review img {
+    width: 400px;
+    height: 240px;
+}
+
+#client .review h3 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 100px;
+    margin: 10px;
+    text-align: center;
+    color: rgb(123, 255, 0);
+}
+
+#client p {
+    font-size: 1.3rem;
+    margin: 20px;
+    
+}
+
+#client .star {
+    color: goldenrod;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.8rem;
+}
